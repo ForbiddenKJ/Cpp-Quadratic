@@ -3,23 +3,27 @@
 
 int main(){
 
+  // Quadratic Roots
   /*
   double *p;
   solver Solver;
-  p = Solver.quadraticRoot(1,6,9);
+  p = Solver.quadraticRoot(1,5,-6);
   std::cout << *(p+0) << "," << *(p+1);
   */
 
-
+  // Quadraric Nth Term
+  /*
   double* p;
-  double data[4] = {9, 13, 19, 27};
-  solver Solution;
-  p = Solution.quadraticNthTerm(data);
-  //std::cout << *(p+0) << "," << *(p+1);
-  //std::cout << *(p+0);
+  double data[5] = {1, 4, 9, 16, 25};
+  solver Solver;
+  p = Solver.quadraticNthTerm(data);
+
+  // Print Variables Instide Array
   for (int i = 0; i < 3; i++){
-    std::cout << *(p+i) << ",";
+    std::cout << i << ' ' << *(p+i) << std::endl;
   }
+  */
+
 
   return 0;
 }
