@@ -30,7 +30,7 @@ public:
     return result;
   }
 
-  double * quadraticNthTerm(double *sequence){
+  double * quadraticNthTerm(double * sequence){
 
     // Find Quadratic
 
@@ -41,8 +41,8 @@ public:
     double aSequence[4];
     double linearSequence[4];
 
-    for (int i = 0; i < 5; i++){
-      aSequence[i] = (a * pow(i,2));
+    for (int i = 1; i < 6; i++){
+      aSequence[i-1] = (a*(i*i));
     }
 
     for (int i = 0; i < 5; i++){
@@ -60,5 +60,4 @@ public:
 
     return result;
   }
-
 };
